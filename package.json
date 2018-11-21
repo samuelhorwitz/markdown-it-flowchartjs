@@ -1,0 +1,33 @@
+{
+  "name": "markdown-it-flowchartjs",
+  "version": "2.0.3",
+  "description": "Flowchart.js support for markdown-it",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:samuelhorwitz/markdown-it-flowchartjs.git"
+  },
+  "keywords": [
+    "markdown",
+    "KaTeX",
+    "math",
+    "LaTeX",
+    "markdown-it-plugin",
+    "markdown-it",
+    "flowchart.js"
+  ],
+  "author": "samuel.horwitz@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "watch": "watchify browser.js -o bundle.js -v"
+  },
+  "dependencies": {
+    "flowchart.js": "^1.11.3",
+    "jsdom": "^13.0.0",
+    "markdown-it": "^6.0.0"
+  },
+  "devDependencies": {
+    "markdown-it": "^8.4.2",
+    "watchify": "^3.11.0"
+  }
+}
